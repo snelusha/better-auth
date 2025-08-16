@@ -1,5 +1,6 @@
 import type { Prettify } from "../types/helper";
 import { apple } from "./apple";
+import { asgardeo } from "./asgardeo";
 import { discord } from "./discord";
 import { facebook } from "./facebook";
 import { github } from "./github";
@@ -20,6 +21,7 @@ import { kick } from "./kick";
 import { zoom } from "./zoom";
 export const socialProviders = {
 	apple,
+	asgardeo,
 	discord,
 	facebook,
 	github,
